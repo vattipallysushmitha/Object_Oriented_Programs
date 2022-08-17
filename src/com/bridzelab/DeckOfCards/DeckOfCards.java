@@ -20,8 +20,10 @@ package com.bridzelab.DeckOfCards;
 				String[] rank = { "Ace", "Kings", "Queen", "Jack", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
 				System.out.println("Welcome to Deck Of Cards");
 					// creating all the possible combinations
-				for (int i = 0; i < 4; i++) {
-					for (int j = 0; j < 13; j++) {
+				for (int i = 0; i < 4; i++)
+				{
+					for (int j = 0; j < 13; j++) 
+					{
 						cardCombo[i][j] = suits[i] + rank[j];
 
 					}
